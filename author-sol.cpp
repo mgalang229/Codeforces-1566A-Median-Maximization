@@ -12,7 +12,7 @@ int main() {
 		cin >> n >> s;
 		// we can make the numbers before the median equal to zero, after that
 		// we have 'm = floor(n / 2) + 1' numbers, which sum should be 'n' and the
-		// minimalof them (i.e., median value) should be maximized
+		// minimal of them (i.e., median value) should be maximized
 		// formula for getting the median position (both odd and even):
 		int m = n / 2 + 1;
 		// to do so, it is enough to make all these numbers equal to 'floor(s / m)',
